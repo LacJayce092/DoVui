@@ -1,0 +1,3723 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &41189228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41189229}
+  - component: {fileID: 41189233}
+  - component: {fileID: 41189232}
+  - component: {fileID: 41189234}
+  - component: {fileID: 41189231}
+  - component: {fileID: 41189230}
+  m_Layer: 5
+  m_Name: AnswerButton04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &41189229
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41189228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 145763561}
+  m_Father: {fileID: 1301435934}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &41189230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41189228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9339623, g: 0.92403597, b: 0.101326115, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &41189231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41189228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 41189232}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &41189232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41189228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &41189233
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41189228}
+  m_CullTransparentMesh: 0
+--- !u!114 &41189234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41189228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82defd7bdd7a5c41b11f65b85c72b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerText: {fileID: 145763562}
+  button: {fileID: 41189231}
+--- !u!1 &145763560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145763561}
+  - component: {fileID: 145763563}
+  - component: {fileID: 145763562}
+  m_Layer: 5
+  m_Name: Answer04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &145763561
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145763560}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 41189229}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &145763562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145763560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Tr\u1EA3 l\u1EDDi 4"
+--- !u!222 &145763563
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145763560}
+  m_CullTransparentMesh: 0
+--- !u!1 &248497904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248497907}
+  - component: {fileID: 248497906}
+  - component: {fileID: 248497905}
+  m_Layer: 5
+  m_Name: DialogText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &248497905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248497904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 75
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 75
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Th\xF4ng b\xE1o k\u1EBFt th\xFAc !!"
+--- !u!222 &248497906
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248497904}
+  m_CullTransparentMesh: 0
+--- !u!224 &248497907
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248497904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1543055833}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &302247485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302247486}
+  - component: {fileID: 302247489}
+  - component: {fileID: 302247488}
+  - component: {fileID: 302247487}
+  m_Layer: 5
+  m_Name: TilteText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &302247486
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302247485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 611015502}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -109.28003}
+  m_SizeDelta: {x: 812.7942, y: 218.55566}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &302247487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302247485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.8937269, g: 0.93333334, b: 0.18039215, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &302247488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302247485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9622642, g: 0.062466383, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 120
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 120
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u0110\u1ED0 VUI"
+--- !u!222 &302247489
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302247485}
+  m_CullTransparentMesh: 0
+--- !u!1 &310169539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310169540}
+  - component: {fileID: 310169542}
+  - component: {fileID: 310169541}
+  m_Layer: 5
+  m_Name: ReplayButtonText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &310169540
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310169539}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1283754649}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &310169541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310169539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Ch\u01A1i l\u1EA1i"
+--- !u!222 &310169542
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310169539}
+  m_CullTransparentMesh: 0
+--- !u!1 &356513246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356513247}
+  - component: {fileID: 356513250}
+  - component: {fileID: 356513249}
+  - component: {fileID: 356513248}
+  m_Layer: 5
+  m_Name: TimePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &356513247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356513246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1013068968}
+  m_Father: {fileID: 1774470216}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 212.44, y: 368}
+  m_SizeDelta: {x: -424.8896, y: -420.33026}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &356513248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356513246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &356513249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356513246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &356513250
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356513246}
+  m_CullTransparentMesh: 0
+--- !u!1 &431848950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431848951}
+  - component: {fileID: 431848955}
+  - component: {fileID: 431848954}
+  - component: {fileID: 431848953}
+  - component: {fileID: 431848952}
+  m_Layer: 5
+  m_Name: ReturnButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &431848951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431848950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 751384314}
+  m_Father: {fileID: 1543055833}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -217, y: -234}
+  m_SizeDelta: {x: 300, y: 130}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &431848952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431848950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9607844, g: 0.90196085, b: 0.43137258, a: 0.95686275}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &431848953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431848950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 431848954}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1993515964}
+        m_MethodName: exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &431848954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431848950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.89411765}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &431848955
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431848950}
+  m_CullTransparentMesh: 0
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &526291837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526291838}
+  - component: {fileID: 526291842}
+  - component: {fileID: 526291841}
+  - component: {fileID: 526291843}
+  - component: {fileID: 526291840}
+  - component: {fileID: 526291839}
+  m_Layer: 5
+  m_Name: AnswerButton02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &526291838
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526291837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1244725604}
+  m_Father: {fileID: 1301435934}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &526291839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526291837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9339623, g: 0.92403597, b: 0.101326115, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &526291840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526291837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 526291841}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &526291841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526291837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &526291842
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526291837}
+  m_CullTransparentMesh: 0
+--- !u!114 &526291843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526291837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82defd7bdd7a5c41b11f65b85c72b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerText: {fileID: 1244725605}
+  button: {fileID: 526291840}
+--- !u!1 &550257509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 550257510}
+  - component: {fileID: 550257512}
+  - component: {fileID: 550257511}
+  m_Layer: 5
+  m_Name: Answer01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &550257510
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550257509}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318093005}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &550257511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550257509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Tr\u1EA3 l\u1EDDi 1"
+--- !u!222 &550257512
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550257509}
+  m_CullTransparentMesh: 0
+--- !u!1 &594649672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 594649675}
+  - component: {fileID: 594649674}
+  - component: {fileID: 594649673}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &594649673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594649672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &594649674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594649672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &594649675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594649672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &611015501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611015502}
+  - component: {fileID: 611015505}
+  - component: {fileID: 611015504}
+  - component: {fileID: 611015503}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &611015502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611015501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 302247486}
+  - {fileID: 1774470216}
+  - {fileID: 1301435934}
+  - {fileID: 2001353070}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &611015503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611015501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &611015504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611015501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &611015505
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611015501}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!1 &629251864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629251866}
+  - component: {fileID: 629251865}
+  m_Layer: 0
+  m_Name: QuestionsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &629251865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629251864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da83149dadcaec4fbbb122c1d534e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - question: "B\u1EC7nh g\xEC m\xE0 b\xE1c s\u1EF9 ph\u1EA3i b\xF3 tay?"
+    rightAnswer: "G\xE3y tay"
+    answerA: "C\xFAm"
+    answerB: "\u0110au m\u1EAFt \u0111\u1ECF"
+    answerC: "\u0110au b\u1EE5ng"
+  - question: "L\u1ECBch n\xE0o d\xE0i nh\u1EA5t?"
+    rightAnswer: "L\u1ECBch s\u1EED"
+    answerA: "L\u1ECBch b\xE0n"
+    answerB: "L\u1ECBch treo t\u01B0\u1EDDng"
+    answerC: "L\u1ECBch V\u1EA1n Ni\xEAn"
+  - question: "Con \u0111\u01B0\u1EDDng d\xE0i nh\u1EA5t l\xE0 \u0111\u01B0\u1EDDng
+      n\xE0o?"
+    rightAnswer: "\u0110\u01B0\u1EDDng \u0111\u1EDDi"
+    answerA: "\u0110\u01B0\u1EDDng bi\xEAn gi\u1EDBi"
+    answerB: "\u0110\u01B0\u1EDDng Qu\u1ED1c l\u1ED9"
+    answerC: "\u0110\u01B0\u1EDDng Tr\u01B0\u1EDDng S\u01A1n"
+  - question: "Qu\u1EA7n r\u1ED9ng nh\u1EA5t l\xE0 qu\u1EA7n g\xEC?"
+    rightAnswer: "Qu\u1EA7n \u0111\u1EA3o"
+    answerA: "Qu\u1EA7n so\xF3c"
+    answerB: "Qu\u1EA7n \u0111\xF9i"
+    answerC: "Qu\u1EA7n th\u1EE5ng"
+  - question: "C\xE1i g\xEC m\xE0 \u0111i th\xEC n\u1EB1m, \u0111\u1EE9ng c\u0169ng
+      n\u1EB1m, nh\u01B0ng n\u1EB1m l\u1EA1i \u0111\u1EE9ng?"
+    rightAnswer: "B\xE0n ch\xE2n"
+    answerA: "C\xE1i c\u1ED5"
+    answerB: "B\xE0n tay"
+    answerC: "C\xE1i l\u01B0ng"
+  - question: "N\xFAi n\xE0o m\xE0 b\u1ECB ch\u1EB7t ra t\u1EEBng kh\xFAc?"
+    rightAnswer: "Th\xE1i S\u01A1n"
+    answerA: "Ho\xE0ng Li\xEAn S\u01A1n"
+    answerB: "Ng\u0169 h\xE0nh s\u01A1n"
+    answerC: Himalaya
+  - question: "C\xE1i g\xEC b\u1EB1ng c\xE1i vung, v\xF9ng xu\u1ED1ng ao, \u0111\xE0o
+      ch\u1EB3ng th\u1EA5y, l\u1EA5y ch\u1EB3ng \u0111\u01B0\u1EE3c"
+    rightAnswer: "B\xF3ng m\u1EB7t tr\u0103ng"
+    answerA: "C\xE2y c\u1EA7u"
+    answerB: "C\xE1i vung"
+    answerC: "C\xE1i thuy\u1EC1n"
+  - question: "Con g\xEC \u0111\u1EADp th\xEC s\u1ED1ng, kh\xF4ng \u0111\u1EADp th\xEC
+      ch\u1EBFt"
+    rightAnswer: Con tim
+    answerA: "Con \u1EBFch"
+    answerB: "Con \u0111\u1EADp"
+    answerC: "Con s\xF4ng"
+  - question: "B\u1ECF ngo\xE0i n\u01B0\u1EDBng trong, \u0103n ngo\xE0i b\u1ECF trong
+      l\xE0 g\xEC?"
+    rightAnswer: "B\u1EAFp/ng\xF4"
+    answerA: "X\xFAc x\xEDch"
+    answerB: "C\xE2y m\xEDa"
+    answerC: "C\u1EE7 khoai"
+  - question: "Trong 1 cu\u1ED9c thi ch\u1EA1y, n\u1EBFu b\u1EA1n v\u01B0\u1EE3t
+      qua ng\u01B0\u1EDDi th\u1EE9 2 b\u1EA1n s\u1EBD \u0111\u1EE9ng th\u1EE9 m\u1EA5y?"
+    rightAnswer: 2
+    answerA: 1
+    answerB: 3
+    answerC: 4
+  - question: "S\u1EDF th\xFA b\u1ECB ch\xE1y, con g\xEC ch\u1EA1y ra \u0111\u1EA7u
+      ti\xEAn?"
+    rightAnswer: "Con ng\u01B0\u1EDDi"
+    answerA: Con voi
+    answerB: "Con kh\u1EC9"
+    answerC: "Con h\u1ED5"
+  - question: "C\xF3 bao nhi\xEAu ch\u1EEF C trong c\xE2u sau \u0111\xE2y: 'C\u01A1m,
+      canh, ch\xE1o g\xEC t\u1EDB c\u0169ng th\xEDch \u0103n!'"
+    rightAnswer: 1
+    answerA: 2
+    answerB: 3
+    answerC: 4
+  - question: "C\xE1i g\xEC tay ph\u1EA3i c\u1EA7m \u0111\u01B0\u1EE3c c\xF2n tay
+      tr\xE1i c\u1EA7m kh\xF4ng \u0111\u01B0\u1EE3c?"
+    rightAnswer: "Tay tr\xE1i"
+    answerA: "C\xE1i k\xE9o"
+    answerB: "C\xE1i b\xFAt"
+    answerC: "\u0110\xF4i \u0111\u0169a"
+  - question: "T\xECm \u0111i\u1EC3m sai trong c\xE2u: '...d\u01B0\u1EDBi \xE1nh
+      n\u1EAFng s\u01B0\u01A1ng long lanh tri\u1EC7u c\xE0nh h\u1ED3ng khoe s\u1EAFc
+      th\u1EAFm'"
+    rightAnswer: "khoe s\u1EAFc th\u1EAFm"
+    answerA: "tri\u1EC7u c\xE0nh h\u1ED3ng"
+    answerB: "d\u01B0\u1EDBi \xE1nh n\u1EAFng"
+    answerC: "s\u01B0\u01A1ng long lanh"
+  - question: "Ai c\u0169ng bi\u1EBFt \u0111\u1EC9nh n\xFAi Everest cao nh\u1EA5t
+      th\u1EBF gi\u1EDBi. V\u1EADy tr\u01B0\u1EDBc khi \u0111\u1EC9nh Everest \u0111\u01B0\u1EE3c
+      kh\xE1m ph\xE1, \u0111\u1EC9nh n\xFAi n\xE0o cao nh\u1EA5t th\u1EBF gi\u1EDBi?"
+    rightAnswer: Everest
+    answerA: Makalu
+    answerB: LhotseKanchenjunga
+    answerC: Lhotse
+  - question: "Con trai v\xE0 con chim kh\xE1c nhau ch\u1EE7 y\u1EBFu \u1EDF \u0111i\u1EC3m
+      n\xE0o"
+    rightAnswer: "M\xF4i tr\u01B0\u1EDDng s\u1ED1ng"
+    answerA: "C\xE1i \u0111\u1EA7u"
+    answerB: "\u0110\xF4i ch\xE2n"
+    answerC: "C\xE1i tay"
+  - question: "Khi Ronaldo th\u1EF1c hi\u1EC7n qu\u1EA3 \u0111\xE1 ph\u1EA1t \u0111\u1EC1n,
+      anh ta s\u1EBD s\xFAt v\xE0o \u0111\xE2u?"
+    rightAnswer: "Tr\xE1i b\xF3ng"
+    answerA: "G\xF3c tr\xE1i"
+    answerB: "G\xF3c ph\u1EA3i"
+    answerC: "Th\u1EE7 m\xF4n"
+  - question: "Con g\xEC mang \u0111\u01B0\u1EE3c mi\u1EBFng g\u1ED7 l\u1EDBn nh\u01B0ng
+      kh\xF4ng mang \u0111\u01B0\u1EE3c h\xF2n s\u1ECFi?"
+    rightAnswer: "Con s\xF4ng"
+    answerA: Con voi
+    answerB: Con cua
+    answerC: "Con ki\u1EBFn"
+  - question: "L\xE0m sao \u0111\u1EC3 c\xE1i c\xE2n t\u1EF1 c\xE2n ch\xEDnh n\xF3?"
+    rightAnswer: "L\u1EADt ng\u01B0\u1EE3c c\xE1i c\xE2n l\u1EA1i"
+    answerA: "Kh\xF4ng th\u1EC3 l\xE0m \u0111\u01B0\u1EE3c"
+    answerB: "\u0110\u1EB7t l\xEAn c\xE1i c\xE2n kh\xE1c"
+    answerC: "\u0110\u1EB7t 2 c\xE1i c\xE2n l\xEAn b\xE0n c\xE2n"
+  - question: "T\xF4i \u0111i chu du kh\u1EAFp n\u01A1i tr\xEAn th\u1EBF gi\u1EDBi
+      m\xE0 t\xF4i v\u1EABn \u1EDF nguy\xEAn m\u1ED9t ch\u1ED7. V\u1EADy t\xF4i l\xE0
+      ai?"
+    rightAnswer: Con tem
+    answerA: "M\xE1y bay"
+    answerB: "C\xE1i vali"
+    answerC: Con chim
+  - question: "Hai ng\u01B0\u1EDDi \u0111\xE0o trong hai gi\u1EDD th\xEC \u0111\u01B0\u1EE3c
+      m\u1ED9t c\xE1i h\u1ED1. H\u1ECFi n\u1EBFu m\u1ED9t ng\u01B0\u1EDDi \u0111\xE0o
+      trong m\u1ED9t gi\u1EDD th\xEC \u0111\u01B0\u1EE3c m\u1EA5y c\xE1i h\u1ED1"
+    rightAnswer: "M\u1ED9t c\xE1i h\u1ED1"
+    answerA: "Kh\xF4ng \u0111\u01B0\u1EE3c c\xE1i h\u1ED1 n\xE0o"
+    answerB: "Ba c\xE1i h\u1ED1"
+    answerC: "Hai c\xE1i h\u1ED1"
+  - question: "N\u1EBFu ch\u1EC9 c\xF3 m\u1ED9t que di\xEAm, trong m\u1ED9t ng\xE0y
+      m\xF9a \u0111\xF4ng gi\xE1 r\xE9t. B\u01B0\u1EDBc v\xE0o c\u0103n ph\xF2ng
+      c\xF3 m\u1ED9t c\xE2y \u0111\xE8n, m\u1ED9t b\u1EBFp d\u1EA7u v\xE0 m\u1ED9t
+      b\u1EBFp c\u1EE7i, b\u1EA1n th\u1EAFp g\xEC tr\u01B0\u1EDBc ti\xEAn?"
+    rightAnswer: "Que di\xEAm"
+    answerA: "B\u1EBFp c\u1EE7i"
+    answerB: "B\u1EBFp d\u1EA7u"
+    answerC: "C\xE2y \u0111\xE8n"
+  - question: "Con g\xEC c\xE0ng to c\xE0ng nh\u1ECF?"
+    rightAnswer: Con cua
+    answerA: Con voi
+    answerB: "Con ki\u1EBFn"
+    answerC: "Con r\xF9a"
+  - question: "B\u1EA1ch k\xEA l\xE0 g\xE0 l\xF4ng tr\u1EAFng, hu\u1EF3nh k\xEA l\xE0
+      g\xE0 l\xF4ng v\xE0ng. V\u1EADy \xF4 k\xEA l\xE0 g\xEC?"
+    rightAnswer: "\u0110\u1ED3ng \xFD"
+    answerA: "G\xE0 l\xF4ng \u0111en"
+    answerB: "G\xE0 l\xF4ng nhi\u1EC1u m\xE0u"
+    answerC: "G\xE0 l\xF4ng x\xE1m"
+  - question: "C\xE1i g\xEC c\xE0ng k\xE9o c\xE0ng ng\u1EAFn"
+    rightAnswer: "\u0110i\u1EBFu thu\u1ED1c l\xE1"
+    answerA: "\u1ED0ng h\xFAt"
+    answerB: "C\xE1i t\u1EA9u"
+    answerC: "C\xE1i qu\u1EA7n"
+  - question: "C\xE1i g\xEC lu\xF4n b\u1EA3o \u0111\u1EBFn m\xE0 kh\xF4ng bao gi\u1EDD
+      \u0111\u1EBFn n\u01A1i"
+    rightAnswer: "Ng\xE0y mai"
+    answerA: "\u0110\u1EC9nh n\xFAi"
+    answerB: Vinh quang
+    answerC: "Th\u1EA5t b\u1EA1i"
+  - question: "M\u1ED9t gia \u0111\xECnh g\u1ED3m b\u1ED1 m\u1EB9 v\xE0 6 ng\u01B0\u1EDDi
+      con trai, m\u1ED7i ng\u01B0\u1EDDi con trai ch\u1EC9 c\xF3 m\u1ED9t c\xF4 em
+      g\xE1i. H\u1ECFi gia \u0111\xECnh \u0111\xF3 c\xF3 bao nhi\xEAu ng\u01B0\u1EDDi"
+    rightAnswer: 9
+    answerA: 7
+    answerB: 8
+    answerC: 10
+  - question: " V\u1EEBa b\u1EB1ng m\u1ED9t th\u01B0\u1EDBc m\xE0 b\u01B0\u1EDBc
+      kh\xF4ng qua. L\xE0 c\xE1i g\xEC?"
+    rightAnswer: "C\xE1i b\xF3ng"
+    answerA: "S\xF4ng s\xE2u"
+    answerB: "Khe n\xFAi"
+    answerC: "B\u1EE9c t\u01B0\u1EDDng"
+  - question: "C\xE2y g\xEC c\xE0ng tr\xF4ng c\xE0ng th\u1EA5y th\u1EA5p"
+    rightAnswer: "C\xE2y n\u1EBFn"
+    answerA: "C\xE2y cau"
+    answerB: "C\xE2y c\u1ED9t \u0111i\u1EC7n"
+    answerC: "C\xE2y c\u1ECF"
+  - question: "Khi ch\u01B0a ai bi\u1EBFt n\xF3 th\xEC n\xF3 v\u1EABn l\xE0 n\xF3.
+      Khi \u0111\xE3 bi\u1EBFt n\xF3 r\u1ED3i th\xEC n\xF3 kh\xF4ng c\xF2n l\xE0
+      n\xF3 n\u1EEFa. N\xF3 l\xE0 g\xEC?"
+    rightAnswer: "B\xED m\u1EADt"
+    answerA: "Cu\u1ED9c s\u1ED1ng"
+    answerB: Vinh quang
+    answerC: "T\xECnh y\xEAu"
+  - question: "C\xE1 g\xEC c\xF3 b\u1ED1n m\xE0u"
+    rightAnswer: "C\xE1 ng\u1EF1a"
+    answerA: "C\xE1 ch\xE9p"
+    answerB: "C\xE1 ch\u1ECDi"
+    answerC: "C\xE1 th\u1EA7n ti\xEAn"
+  - question: "Tr\xEAn l\xF4ng d\u01B0\u1EDBi l\xF4ng, \u0111\xEAm l\u1ED3ng l\xE0m
+      m\u1ED9t. L\xE0 c\xE1i g\xEC?"
+    rightAnswer: "\u0110\xF4i m\u1EAFt"
+    answerA: "\u0110\xF4i d\xE9p"
+    answerB: "\u0110\xF4i tai"
+    answerC: "\u0110\xF4i ch\xE2n"
+  - question: "M\u1ED9t \u0111\xE0n chim 15 con \u0111\u1EADu tr\xEAn c\xE2y. Ng\u01B0\u1EDDi
+      th\u1EE3 s\u0103n gi\u01A1 s\xFAng b\u1EAFn 5 ph\xE1t, h\u1ECFi tr\xEAn c\xE2y
+      c\xF2n m\u1EA5y con?"
+    rightAnswer: 0
+    answerA: '5 '
+    answerB: 10
+    answerC: 15
+  - question: "Vua g\u1ECDi ho\xE0ng h\u1EADu b\u1EB1ng g\xEC?"
+    rightAnswer: "Mi\u1EC7ng"
+    answerA: "\xC1i phi"
+    answerB: "Th\xE1i h\u1EADu"
+    answerC: "N\xE0ng"
+  - question: "C\xE1i g\xEC khi d\xF9ng th\xEC qu\u0103ng \u0111i, kh\xF4ng d\xF9ng
+      l\u1EA1i l\u1EA5y l\u1EA1i ?"
+    rightAnswer: "C\xE1i m\u1ECF neo"
+    answerA: "C\xE1i b\xFAt"
+    answerB: "C\xE1i gh\u1EBF"
+    answerC: "C\xE1i cu\u1ED1c"
+  - question: "C\xE1i g\xEC ch\u1EE9a nhi\u1EC1u n\u01B0\u1EDBc nh\u1EA5t m\xE0 ko
+      \u01B0\u1EDBt t\xED ti n\xE0o?"
+    rightAnswer: "B\u1EA3n \u0111\u1ED3"
+    answerA: "Th\xF9ng Phi"
+    answerB: "B\xECnh n\u01B0\u1EDBc"
+    answerC: "Qu\u1EA3 d\u1EEBa"
+  - question: "Ng\u01B0\u1EDDi da tr\u1EAFng t\u1EAFm bi\u1EC3n \u0111en th\xEC h\u1ECD
+      s\u1EBD b\u1ECB g\xEC?"
+    rightAnswer: "B\u1ECB \u01B0\u1EDBt"
+    answerA: "B\u1ECB n\u1ED5i"
+    answerB: "B\u1ECB ch\xECm"
+    answerC: "B\u1ECB \u0111en"
+  - question: "Con g\xEC \u0111i ng\u1ED3i, \u0111\u1EE9ng ng\u1ED3i, n\u1EB1m ng\u1ED3i,
+      ng\u1EE7 c\u0169ng ng\u1ED3i lu\xF4n l\xE0 con g\xEC?"
+    rightAnswer: "Con \u1EBFch"
+    answerA: "Con th\u1ECF"
+    answerB: "Con chu\u1ED9t"
+    answerC: "Con g\xE0"
+  - question: " B\u1EA1n l\xE0m vi\u1EC7c g\xEC \u0111\u1EA7u ti\xEAn m\u1ED7i bu\u1ED5i
+      s\xE1ng?"
+    rightAnswer: "Th\u1EE9c d\u1EADy"
+    answerA: "Nghe \u0111\xE0i"
+    answerB: "\u0110\xE1nh r\u0103ng"
+    answerC: "R\u1EEDa m\u1EB7t"
+  - question: "T\xF4i c\xF3 4 c\xE1i ch\xE2n, 1 c\xE1i l\u01B0ng, nh\u01B0ng kh\xF4ng
+      c\xF3 c\u01A1 th\u1EC3. T\xF4i l\xE0 ai?"
+    rightAnswer: "C\xE1i gh\u1EBF"
+    answerA: "C\xE1i b\xE0n"
+    answerB: "Con ng\u1EF1a"
+    answerC: "Con r\xF9a"
+  - question: "C\xE2y n\u1EBFn \u0111\u1ED1t c\xE0ng nhi\u1EC1u c\xE0ng ng\u1EAFn.
+      C\xE2y g\xEC \u0111\u1ED1t c\xE0ng nhi\u1EC1u c\xE0ng d\xE0i?"
+    rightAnswer: "C\xE2y tre"
+    answerA: "C\xE2y h\u01B0\u01A1ng (nhang)"
+    answerB: "C\xE2y chu\u1ED1i"
+    answerC: "Kh\xF4ng c\xF3 c\xE2y \u0111\xF3"
+  - question: "L\xE0m th\u1EBF n\xE0o \u0111\u1EC3 c\xF3 g\xE0 ch\xEDn c\u1EF1a"
+    rightAnswer: "Lu\u1ED9c nguy\xEAn con g\xE0"
+    answerA: "Ph\u1ED1i gi\u1ED1ng g\xE0 m\u1EDBi"
+    answerB: "L\u1EAFp th\xEAm c\u1EF1a gi\u1EA3"
+    answerC: "L\xEAn n\xFAi t\xECm"
+  - question: "2 con v\u1ECBt \u0111i tr\u01B0\u1EDBc 2 con v\u1ECBt, 2 con v\u1ECBt
+      \u0111i sau 2 con v\u1ECBt, 2 con v\u1ECBt \u0111i gi\u1EEFa 2 con v\u1ECBt.
+      H\u1ECFi c\xF3 m\u1EA5y con v\u1ECBt?"
+    rightAnswer: 4
+    answerA: 5
+    answerB: 6
+    answerC: 8
+  - question: "C\xE1i g\xEC \u0111en khi b\u1EA1n mua n\xF3, \u0111\u1ECF khi d\xF9ng
+      n\xF3 v\xE0 x\xE1m x\u1ECBt khi v\u1EE9t n\xF3 \u0111i?"
+    rightAnswer: Than
+    answerA: "Que di\xEAm"
+    answerB: "B\u1EBFp l\u1EEDa"
+    answerC: "N\u1ED3i"
+  - question: "C\xF3 1 anh ch\xE0ng l\xE0m vi\u1EC7c trong 1 t\xF2a nh\xE0 50 t\u1EA7ng,
+      nh\u01B0ng anh ta l\u1EA1i ch\u1EC9 \u0111i thang m\xE1y l\xEAn \u0111\u1EBFn
+      t\u1EA7ng 35 r\u1ED3i \u0111o\u1EA1n c\xF2n l\u1EA1i anh ta \u0111i thang b\u1ED9.T\u1EA1i
+      sao anh ta l\u1EA1i l\xE0m nh\u01B0 v\u1EADy ?"
+    rightAnswer: "Anh ta l\xE0m vi\u1EC7c \u1EDF t\u1EA7ng 35 c\u1EE7a t\xF2a nh\xE0"
+    answerA: "Anh ta s\u1EE3 \u0111\u1ED9 cao"
+    answerB: "Anh ta b\u1ECB \u0111i\xEAn"
+    answerC: "Thang m\xE1y kh\xF4ng l\xEAn \u0111\u01B0\u1EE3c t\u1EA7ng 50"
+  - question: "B\xEAn tr\xE1i \u0111\u01B0\u1EDDng c\xF3 m\u1ED9t c\u0103n nh\xE0
+      xanh, b\xEAn ph\u1EA3i \u0111\u01B0\u1EDDng c\xF3 m\u1ED9t c\u0103n nh\xE0
+      \u0111\u1ECF. V\u1EADy, nh\xE0 Tr\u1EAFng \u1EDF \u0111\xE2u ?"
+    rightAnswer: "\u1EDE M\u1EF9"
+    answerA: "\u1EDE ph\xEDa sau"
+    answerB: "\u1EDE tr\xEAn tr\u1EDDi!"
+    answerC: "\u1EDE \u0111\u1ED1i di\u1EC7n"
+  - question: "B\xE0 \u0111\xF3 b\u1EA3 ch\u1EBFt b\u1EA3 bay l\xEAn tr\u1EDDi.H\u1ECFi
+      t\u1EA1i sao b\xE0 \u1EA5y ch\u1EBFt?"
+    rightAnswer: "B\xF2 \u0111\xE1 b\u1EA3 ch\u1EBFt"
+    answerA: "B\xE0 th\u1EA5t t\xECnh"
+    answerB: "B\xE0 nh\u1EA3y l\u1EA7u t\u1EF1 t\u1EED"
+    answerC: "B\xE0 b\u1ECB gi\u1EBFt"
+  - question: "B\xE0 \u0111\xF3 b\u1EA3 ch\u1EBFt b\u1EA3 bay l\xEAn tr\u1EDDi.H\u1ECFi
+      b\xE0 \u1EA5y ch\u1EBFt n\u0103m bao nhi\xEAu tu\u1ED5i? "
+    rightAnswer: 73
+    answerA: 83
+    answerB: 103
+    answerC: 92
+  - question: "C\xF3 1 \u0111\xE0n chim \u0111\u1EADu tr\xEAn c\xE0nh, ng\u01B0\u1EDDi
+      th\u1EE3 s\u0103n b\u1EAFn c\xE1i r\u1EB1m. H\u1ECFi ch\u1EBFt m\u1EA5y con?"
+    rightAnswer: 15
+    answerA: 0
+    answerB: 5
+    answerC: 20
+  - question: "1 \xF4ng gi\xE0 m\xF9 \u0111\u01B0\u1EE3c ch\xE1u \u0111\u1EABn \u0111i
+      ch\u01A1i c\xF4ng vi\xEAn khi \u0111\xEAn c\xF4ng vi\xEAn h\u1ECFi ch\xE1u
+      \xF4ng gi\xE0 th\u1EA5y g\xEC ?"
+    rightAnswer: "C\xF4ng vi\xEAn"
+    answerA: "Kh\xF4ng th\u1EA5y g\xEC c\u1EA3"
+    answerB: "Th\u1EA5y tr\u1EDDi m\u01B0a"
+    answerC: "Th\u1EA5y m\xE0u \u0111en"
+  - question: "Lo\u1EA1i n\u01B0\u1EDBc gi\u1EA3i kh\xE1t n\xE0o ch\u1EE9a s\u1EAFt
+      v\xE0 canxi?"
+    rightAnswer: Cafe
+    answerA: 7up
+    answerB: Pepsi
+    answerC: Coca
+  - question: "C\xE1i g\xEC trong tr\u1EAFng ngo\xE0i xanh. Tr\u1ED3ng \u0111\u1EADu,
+      tr\u1ED3ng h\xE0nh r\u1ED3i th\u1EA3 heo v\xE0o ?"
+    rightAnswer: "B\xE1nh ch\u01B0ng"
+    answerA: "B\xE1nh m\xEC"
+    answerB: "B\xE1nh c\xE1y"
+    answerC: "B\xE1nh \u0111\u1EADu xanh"
+  - question: "C\xF3 m\u1ED9t m\u1EA3nh g\u1ED7 c\u1EA7n c\u1EAFt ra l\xE0m 50 mi\u1EBFng.
+      Th\u1EDDi gian \u0111\u1EC3 c\u1EAFt \u0111\u01B0\u1EE3c 1 mi\u1EBFng g\u1ED7
+      l\xE0 1 ph\xFAt. H\u1ECFi n\u1EBFu c\u1EAFt li\xEAn t\u1EE5c kh\xF4ng ngh\u1EC9
+      th\xEC bao l\xE2u s\u1EBD c\u1EAFt xong m\u1EA3nh g\u1ED7"
+    rightAnswer: "49 ph\xFAt"
+    answerA: "51 ph\xFAt"
+    answerB: "48 ph\xFAt"
+    answerC: "50 ph\xFAt"
+  - question: "30 chia 1/3 r\u1ED3i c\u1ED9ng th\xEAm 15 th\xEC b\u1EB1ng bao nhi\xEAu"
+    rightAnswer: 105
+    answerA: 75
+    answerB: 25
+    answerC: 90
+  - question: "Tr\xEAn hang \u0111\xE1, d\u01B0\u1EDBi hang \u0111\xE1, gi\u1EEFa
+      l\xE0 con c\xE1 th\u1EDDn b\u01A1n. L\xE0 c\xE1i g\xEC?"
+    rightAnswer: "C\xE1i mi\u1EC7ng"
+    answerA: "V\u1EF1c s\xE2u"
+    answerB: "\u0110\xF4i m\u1EAFt"
+    answerC: "Hang \u0111\u1ED9ng l\u1EDBn"
+  - question: "Con g\xEC \u0103n l\u1EEDa v\u1EDBi n\u01B0\u1EDBc than?"
+    rightAnswer: "Con t\xE0u"
+    answerA: "Con b\xF2"
+    answerB: "Con \u0111\u01B0\u1EDDng"
+    answerC: "Con c\xE0o c\xE0o"
+  - question: "C\xE1i g\xEC c\xE0ng ch\u01A1i c\xE0ng ra n\u01B0\u1EDBc "
+    rightAnswer: "Ch\u01A1i c\u1EDD"
+    answerA: "Ch\u1EA1y b\u1ED9"
+    answerB: "Nh\u1EA3y d\xE2y"
+    answerC: "Ch\u01A1i b\xF3ng"
+  - question: "T\u1EA1i sao s\u1EE3i l\xF4ng kh\xF4ng bao gi\u1EDD th\u1EB3ng ?"
+    rightAnswer: "\u0110\u1EDDi b\u1EA5t c\xF4ng"
+    answerA: "B\u1EA9m sinh"
+    answerB: "Style n\xF3 th\u1EBF >.<"
+    answerC: "\u0110\u01B0\u1EE3c u\u1ED1n "
+  - question: "Ng\u01B0\u1EDDi ta b\u1EA3o \u201Cnhanh nh\u01B0 c\u1EAFt\u201D v\u1EADy
+      c\u1EAFt l\xE0 g\xEC"
+    rightAnswer: "Chim c\u1EAFt"
+    answerA: "Ti\u1EC1n c\u1EAFt "
+    answerB: "Ti\u1EBFng c\xE1ch c\xE1ch"
+    answerC: "K\xE9o c\u1EAFt "
+  - question: "N\u1EBFu \u0111\u01B0\u1EE3c ngh\u1EC9 t\u1EEB \u0111\u1EA7u th\xE1ng
+      12 t\u1EDBi cu\u1ED1i th\xE1ng th\xEC t\u1ED5ng c\u1ED9ng ngh\u1EC9 \u0111\u01B0\u1EE3c
+      bao nhi\xEAu ng\xE0y ?"
+    rightAnswer: "62 ng\xE0y"
+    answerA: "61 ng\xE0y"
+    answerB: "63 ng\xE0y"
+    answerC: "60 ng\xE0y"
+  - question: "S\u1EF1 ng\u01B0ng t\u1EE5 l\xE0 chuy\u1EC3n h\xF3a t\u1EEB th\u1EC3
+      h\u01A1i sang th\u1EC3 th\u1EC3 ?"
+    rightAnswer: "L\u1ECFng"
+    answerA: "H\u1ED7n h\u1EE3p"
+    answerB: "R\u1EAFn"
+    answerC: "Kh\xED"
+  - question: "Th\xE0nh ph\u1ED1 n\xE0o c\u1EE7a VN c\xF2n \u0111\u01B0\u1EE3c g\u1ECDi
+      l\xE0 T\xE2y \u0110\xF4"
+    rightAnswer: "TP.C\u1EA7n Th\u01A1"
+    answerA: "TP.\u0110\xE0 N\u1EB5ng"
+    answerB: "TP.H\xE0 N\u1ED9i"
+    answerC: 'TP.HCM '
+  - question: "T\u1EEB ti\u1EBFng vi\u1EC7t sao \u0111\xE2y kh\xF4ng n\u1EB1ng trong
+      t\u1EEB ng\u1EEF Oxford?"
+    rightAnswer: "Ch\xE1o"
+    answerA: "\xC1o D\xE0i"
+    answerB: "B\xE1nh M\xEC"
+    answerC: "Ph\u1EDF"
+  - question: "T\u1EC9nh n\xE0o c\xF3 ng\u01B0\u1EDDi gi\xE0u v\xE0 s\u1ED1ng l\xE2u
+      nh\u1EA5t ?"
+    rightAnswer: "Ph\xFA Th\u1ECD"
+    answerA: "H\xE0 N\u1ED9i"
+    answerB: "L\u1EA1ng S\u01A1n"
+    answerC: "B\xECnh D\u01B0\u01A1ng"
+  - question: "Trong l\xE1 th\u01B0, t\u1EEB XXX th\u01B0\u1EDDng d\xF9ng \u1EDF
+      cu\u1ED1i l\xE1 th\u01B0 c\xF3 ngh\u0129a l\xE0 g\xEC  ?"
+    rightAnswer: "N\u1EE5 h\xF4n"
+    answerA: "Xao Xuy\u1EBFn X\xF4i"
+    answerB: "Y\xEAu nhi\u1EC1u"
+    answerC: "Th\u1EA3 Tim"
+  - question: "Con g\xEC c\xF3 b\u1EE9u tr\xEAn l\u01B0ng tr\u1EDDi n\u1EAFng kh\xE1t
+      c\u1ED5 b\u0103ng b\u0103ng \u0111\u01B0\u1EDDng d\xE0i ?"
+    rightAnswer: "Con l\u1EA1c \u0111\xE0"
+    answerA: "Con \u0111\xE0 \u0111i\u1EC3u"
+    answerB: "Con c\xF3c"
+    answerC: "Con r\xF9a"
+  - question: "L\xE0m vi\u1EC7c m\u1ED9t c\xE1ch qua loa \u0111\u1EA1i kh\xE1i, ch\u1EC9
+      lo\xE1ng tho\xE1ng b\xEAn ngo\xE0i g\u1ECDi l\xE0 g\xEC?"
+    rightAnswer: "C\u01B0\u1EE1i ng\u1EF1a xem hoa"
+    answerA: "C\u01B0\u1EE1i tr\xEAn l\u01B0ng h\u1ED5 "
+    answerB: "C\u01B0\u1EE1i \u0111\u1EA7u c\u01B0\u1EE1i c\u1ED5"
+    answerC: "C\u01B0\u1EE1i \u0111\u1EA7u voi \u0111\u1EEF"
+  - question: "T\xEAn v\xED von c\u1EE7a th\xE0nh ph\u1ED1 \u0110\xE0 L\u1EA1t l\xE0
+      g\xEC "
+    rightAnswer: "C\u1EA3 s\u01B0\u01A1ng m\xF9 v\xE0 ng\xE0n hoa"
+    answerA: "Th\xE0nh ph\u1ED1 s\u01B0\u01A1ng m\xF9"
+    answerB: "Th\xE0nh ph\u1ED1 ng\xE0n hoa"
+    answerC: "Th\xE0nh ph\u1ED1 Bi\u1EC3n"
+  - question: "M\xF4n th\u1EC3 thao n\xE0o sau \u0111\xE2y c\u1EA7n \u0111\xF2i h\u1ECFi
+      s\xE2n thi \u0111\u1EA5u r\u1EA5t r\u1ED9ng ?"
+    rightAnswer: Golf
+    answerA: "\u0110\u1EA5u ki\u1EBFm "
+    answerB: "B\xF3ng b\xE0n"
+    answerC: Tennis
+  - question: "T\xF4n Ng\u1ED9 Kh\xF4ng trong T\xE2y Du K\xFD l\xE0 h\xF3a th\xE2n
+      c\u1EE7a con v\u1EADt n\xE0o ?"
+    rightAnswer: "Kh\u1EC9"
+    answerA: "Chu\u1ED9t"
+    answerB: "M\xE8o"
+    answerC: "Ch\xF3"
+  - question: "M\u1ED9t \xF4ng m\xF9 \u0111\u1EE9ng gi\u1EEFa \u0111\u01B0\u1EDDng
+      h\u1ECFi th\u1EA5y \u1ED5ng th\u1EA5y g\xEC ?"
+    rightAnswer: "Kh\xF4ng th\u1EA5y g\xEC"
+    answerA: "Th\u1EA5y m\u1EC7t"
+    answerB: "Th\u1EA5y g\xE1i"
+    answerC: "Kh\xF4ng quan t\xE2m "
+  - question: "Ng\u01B0\u1EDDi ta th\u01B0\u1EDDng g\u1ECDi qu\u1ED1c gia n\xE0o
+      l\xE0 \u0110\u1EA5t n\u01B0\u1EDBc m\u1EB7t tr\u1EDDi m\u1ECDc ?"
+    rightAnswer: "Nh\u1EADt B\u1EA3n"
+    answerA: "Trung qu\u1ED1c"
+    answerB: "H\xE0n qu\u1ED1c "
+    answerC: "Tri\u1EC1u Ti\xEAn"
+  - question: "Tr\xF2 g\xEC mu\u1ED1n th\u1EAFng th\xEC ph\u1EA3i l\xF9i ?"
+    rightAnswer: "K\xE9o co"
+    answerA: "B\u1EAFn s\xFAng"
+    answerB: "\u0110ua xe"
+    answerC: "Ch\u1EA1y b\u1ED9"
+  - question: "L\xE0m th\u1EBF n\xE0o \u0111\u1EC3 l\xF4ng m\xE0y n\u1EB1m \u1EDF
+      d\u01B0\u1EDBi m\u1EAFt  ?"
+    rightAnswer: "V\u1EBD"
+    answerA: "Kh\xF4ng th\u1EC3 \u0111\u01B0\u1EE3c"
+    answerB: "N\u1EB1m m\u01A1"
+    answerC: "C\xF3 ph\xE9p"
+  - question: "M\u1ED9t con ng\u1EF1a \u0111au c\u1EA3 t\xE0u b\u1ECF c\u1ECF. T\u1EA1i
+      sao l\u1EA1i nh\u01B0 v\u1EADy?"
+    rightAnswer: "T\u1EA1i v\xEC ch\xFAng s\u1EE3 ng\u1ED9 \u0111\u1ED9c th\u1EF1c
+      ph\u1EA9m"
+    answerA: "T\u1EA1i ch\xFAng th\xEDch "
+    answerB: "T\u1EA1i ch\xFAng th\u01B0\u01A1ng \u0111\u1ED3ng lo\u1EA1i"
+    answerC: "T\u1EA1i ch\xFAng gh\xE9t \u0111\u1ED3ng lo\u1EA1i"
+  - question: "Ch\u1ED3ng c\u1EE7a m\u1EB9 m\xECnh l\xE0 ai?"
+    rightAnswer: "B\u1ED1 m\xECnh"
+    answerA: "B\xE1c m\xECnh"
+    answerB: "\xD4ng m\xECnh"
+    answerC: "H\xE0ng x\xF3m m\xECnh"
+  - question: "\u0110i\u1EC1n ti\u1EBFp v\xE0o c\xE2u sau\u201D Cha m\u1EB9 sinh
+      con,Tr\u1EDDi sinh....\u201D"
+    rightAnswer: "T\xEDnh"
+    answerA: "N\u1EBFt"
+    answerB: "C\xE2y"
+    answerC: "C\u1ECF"
+  - question: "\u0110\xE2u l\xE0 m\u1ED9t lo\u1EA1i th\u1EF1c ph\u1EA9m gi\xE0u ch\u1EA5t
+      kho\xE1ng?"
+    rightAnswer: "S\u1EEFa"
+    answerA: "V\u1EEFa "
+    answerB: "Ch\u1EEFa"
+    answerC: "L\u1EEDa"
+  - question: "C\xE1i g\xEC trong \u0111en ngo\xE0i tr\u1EAFng ?"
+    rightAnswer: "Tr\xE1i nh\xE3n"
+    answerA: "Tr\xE1i v\u0169 s\u1EEFa"
+    answerB: "Tr\xE1i d\u1EEBa"
+    answerC: "C\u1EE5c than"
+  - question: "\u0110\u1EC3 th\xE2n th\u1EC3 s\u1EA1ch s\u1EBD ta c\u1EA7n "
+    rightAnswer: "Th\u01B0\u1EDDng xuy\xEAn t\u1EAFm g\u1ED9i"
+    answerA: "1 tu\u1EA7n t\u1EAFm 1 l\u1EA7n"
+    answerB: "B\xF4i nhi\u1EC1u n\u01B0\u1EDBc hoa l\xEAn ng\u01B0\u1EDDi"
+    answerC: "2 tu\u1EA7n t\u1EAFm 1 l\u1EA7n"
+  - question: "H\xECnh n\xE0o kh\xE1c v\u1EDBi h\xECnh c\xF2n l\u1EA1i. Tam gi\xE1c,
+      t\u1EE9 gi\xE1c, l\u1EADp ph\u01B0\u01A1ng, l\u1EE5c gi\xE1c."
+    rightAnswer: "L\u1EADp ph\u01B0\u01A1ng"
+    answerA: "Tam gi\xE1c"
+    answerB: "T\u1EE9 gi\xE1c"
+    answerC: "L\u1EE5c gi\xE1c"
+  - question: "Khi xe phang \u0111\u1ED9t ng\u1ED9t ng\u01B0\u1EDDi b\u1ECB nh\xE0o
+      v\u1EC1 ph\xEDa tr\u01B0\u1EDBc l\xE0 do t\xE1c d\u1EE5ng c\u1EE7a ? "
+    rightAnswer: "Qu\xE1n t\xEDnh"
+    answerA: "L\u1EF1c \u0111\xE0n h\u1ED3i"
+    answerB: "Ma s\xE1t l\u0103n"
+    answerC: "Ma s\xE1t ngh\u1EC9 "
+  - question: "Ng\u01B0\u1EDDi d\xE2n th\u01B0\u1EDDng g\u1ECDi H\u1ED5 l\xE0 g\xEC?"
+    rightAnswer: "\xD4ng ba m\u01B0\u01A1i"
+    answerA: "\xD4ng s\xE1u m\u01B0\u01A1i"
+    answerB: "\xD4ng n\u0103m m\u01B0\u01A1i"
+    answerC: "\xD4ng b\u1ED1n m\u01B0\u01A1i"
+  - question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 tr\u1ED1ng\u201D C\xF3 Ch\xED th\xEC
+      ....\u201D"
+    rightAnswer: "N\xEAn"
+    answerA: "Th\xF4i"
+    answerB: Ngu
+    answerC: "Ng\u1EE9a"
+  - question: "T\u1EEB kh\xF3a PPAP l\xE0 vi\u1EBFt t\u1EAFt c\u1EE7a ? "
+    rightAnswer: Pen Pineapple Apple Pen
+    answerA: Pen Pen Apple Pen
+    answerB: Pineapple Pen Apple Pen
+    answerC: "Kh\xF4ng l\xE0 t\u1EEB n\xE0o "
+  - question: "\u0102n g\xEC m\xE0 ai c\u0169ng gh\xE9t ?"
+    rightAnswer: "\u0102n h\u1EA1i"
+    answerA: "\u0102n ng\u1EE7"
+    answerB: "\u0102n ch\u01A1i"
+    answerC: "\u0102n ti\u1EC1n"
+  - question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 tr\u1ED1ng \u201C G\u1EA1o \u0111em
+      v\xE0o gi\xE3 bao \u0111au \u0111\u1EDBn, g\u1EA1o gi\xE3 xong r\u1ED3i tr\u1EAFng
+      t\u1EF1a .... \u201D?"
+    rightAnswer: "B\xF4ng"
+    answerA: "M\xE2y"
+    answerB: Thay
+    answerC: "M\xE2y"
+  - question: "\xD0\u01A1n v\u1ECB ti\u1EC1n t\u1EC7 c\u1EE7a nh\u1EADt l\xE0 g\xEC
+      ?"
+    rightAnswer: Yen
+    answerA: VND
+    answerB: Dolla $$
+    answerC: Won
+  - question: "9 + 9 = ? (\u0110\u1ED1 dzui)"
+    rightAnswer: "Kh\xE9t"
+    answerA: '18 '
+    answerB: "Em ch\u1ECBu "
+    answerC: 9
+  - question: "\u0110\u01B0\u1EDDng th\u1ED1t n\u1ED1t \u0111\u01B0\u1EE3c n\u1EA5u
+      t\u1EEB n\u01B0\u1EDBc th\u1ED1t n\u1ED1t v\u1EADy n\u01B0\u1EDBc \u0111\xF3
+      l\u1EA5y t\u1EEB b\u1ED9 ph\u1EADn n\xE0o c\u1EE7a c\xE2y?"
+    rightAnswer: "Hoa th\u1ED1t n\u1ED1t"
+    answerA: "L\xE1 th\u1ED1t n\u1ED1t "
+    answerB: "Th\xE2n c\xE2y th\u1ED1t n\u1ED1t"
+    answerC: "Tr\xE1i th\u1ED1t n\u1ED1t"
+  - question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 tr\u1ED1ng \u201C g\u1EA7n m\u1EF1c
+      th\xEC \u0111en, g\u1EA7n \u0111\xE8n th\xEC ....\u201D"
+    rightAnswer: "S\xE1ng"
+    answerA: "S\u01B0\u1EDBng"
+    answerB: "Ch\xE1y"
+    answerC: "Ng\u1EE7"
+  - question: "Khi n\xF3i v\u1EC1 ghen tu\xF4ng th\xEC ng\u01B0\u1EDDi ta so s\xE1nh
+      v\u1EDBi nh\xE2n v\u1EADt n\xE0o ?"
+    rightAnswer: "Ho\u1EA1n Th\u01B0"
+    answerA: "T\u1EEB H\u1EA3i"
+    answerB: "Ho\xE0n Ch\xE2u C\xE1ch C\xE1ch "
+    answerC: "L\xFD Th\xF4ng"
+  - question: "Ph\u1ED5i thu\u1ED9c h\u1EC7 g\xEC?"
+    rightAnswer: "H\u1EC7 h\xF4 h\u1EA5p"
+    answerA: "H\u1EC7 b\xE0i ti\u1EBFt"
+    answerB: "H\u1EC7 th\u1EA7n kinh"
+    answerC: "H\u1EC7 tu\u1EA7n ho\xE0n"
+  - question: "B\u1EA1n ch\u1EE5p selfie b\u1EB1ng camera sau \u0111\u01B0\u1EE3c
+      kh\xF4ng  ?"
+    rightAnswer: "\u0110\u01B0\u1EE3c"
+    answerA: "Kh\xF4ng"
+    answerB: Cho qua
+    answerC: "\xD4ng ch\u1EE5p \u0111i "
+  - question: "Trong 12 con gi\xE1p tu\u1ED5i h\u1EE3i \u0111\u1EA1i \u0111i\u1EC7n
+      cho con g\xEC  ?"
+    rightAnswer: Con heo
+    answerA: "Con ch\xF3"
+    answerB: "Con m\xE8o"
+    answerC: "Con ng\u1EF1a"
+  - question: "Con v\u1EADt n\xE0o kh\xE1c nh\u1EA5t so v\u1EDBi c\xE1c con c\xF2n
+      l\u1EA1i ?"
+    rightAnswer: Kangaroo
+    answerA: "D\xEA"
+    answerB: "H\u01B0\u01A1u "
+    answerC: "Ng\u1EF1a"
+  - question: "C\xE0 g\xEC C\xE0 c\u1EE7a m\xECnh th\xEC kh\xF4ng th\xEDch nh\u01B0ng
+      c\u1EE7a ng\u01B0\u1EDDi kh\xE1c th\xEC th\xEDch ?"
+    rightAnswer: "C\xE0 th\u1EBB"
+    answerA: "C\xE0 v\u1EA1t "
+    answerB: "C\xE0 l\u0103m"
+    answerC: "C\xE0 ch\u1EDBn"
+  - question: "Nh\u1EA5t qu\u1EF7 nh\xEC ma, th\u1EE9 ba...."
+    rightAnswer: "L\xE0 m\u1ED9t ng\xE0y trong tu\u1EA7n"
+    answerA: "H\u1ECDc tr\xF2 "
+    answerB: "Tr\xE0 xanh"
+    answerC: "H\u1ECDc b\xE0i"
+  - question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 tr\u1ED1ng \u201C \u0102n n\xEAn l\xE0m
+      ...\u201D"
+    rightAnswer: Ra
+    answerA: "N\xEAn"
+    answerB: "T\u1ED1t"
+    answerC: "\u1ED4n"
+  - question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 tr\u1ED1ng \u201C Con c\xF2 m\xE0 \u0111i
+      \u0103n \u0111\xEAm, \u0111\u1EADu ph\u1EA3i c\xE0nh m\u1EC1m l\u1ED9n c\u1ED5
+      xu\u1ED1ng ...\u201D"
+    rightAnswer: Ao
+    answerA: "M\u01B0\u01A1ng"
+    answerB: "S\xF4ng"
+    answerC: "N\u01B0\u1EDBc"
+  - question: "Ch\xE2u l\u1EE5c c\xF3 nhi\u1EC1u qu\u1ED1c gia nh\u1EA5t ?"
+    rightAnswer: "Ch\xE2u Phi"
+    answerA: "Ch\xE2u \xC1"
+    answerB: "Ch\xE2u M\u1EF9"
+    answerC: "Ch\xE2u \xC2u"
+  - question: "V\xEC sao con g\xE1i th\xEDch con trai ?"
+    rightAnswer: "V\xEC c\xE1i b\xEAn trong con trai"
+    answerA: "V\xEC mu\u1ED1n \u0111\u01B0\u1EE3c y\xEAu"
+    answerB: "V\xEC th\xEDch vu\u1ED1t ve"
+    answerC: "V\xEC th\u1EE9 b\xEAn trong v\xED ti\u1EC1n"
+  - question: "\u0110\xE2u l\xE0 t\xEAn c\u1EE7a b\xE0i h\xE1t ch\xEDnh trong SEAGAME
+      22 t\u1ED5 ch\u1EE9c t\u1EA1i Vi\u1EC7t Nam n\u0103m 2003  ?"
+    rightAnswer: "V\xEC m\u1ED9t th\u1EBF gi\u1EDBi ng\xE0y mai "
+    answerA: "V\xEC m\u1ED9t Vi\u1EC7t Nam ng\xE0y mai"
+    answerB: "V\xEC m\u1ED9t H\xE0 N\u1ED9i ng\xE0y mai"
+    answerC: "V\xEC m\u1ED9t ch\xE2u \xC1 ng\xE0y mai"
+  - question: "T\xF4i ca kh\xF4ng hay, t\xF4i \u0111\xE0n nghe c\u0169ng d\u1EDF.
+      Nh\u01B0ng n\xE0ng khen th\u1EADt nhi\u1EC1u. V\xEC sao n\xE0ng l\u1EA1i th\u1EBF?"
+    rightAnswer: "N\xE0ng y\xEAu t\xF4i"
+    answerA: "N\xE0ng b\u1ECB \u0111i\u1EBFc"
+    answerB: "H\u1ECFi n\xE0ng \u1EA5y,h\u1ECFi tao chi"
+    answerC: "N\xE0ng n\u1ECBnh t\xF4i"
+  - question: "Ph\u01B0\u01A1ng ti\u1EC7n giao th\xF4ng n\xE0o kh\xF4ng c\xF3 c\xF2i
+      ?"
+    rightAnswer: Ghe
+    answerA: "T\xE0u h\u1ECFa"
+    answerB: Xe bus
+    answerC: Xe oto
+  - question: "Khu du l\u1ECBch b\xE1n \u0111\u1EA3o S\u01A1n Tr\xE0 thu\u1ED9c \u0111\u1ECBa
+      ph\u1EADn c\u1EE7a t\u1EC9nh n\xE0o ?"
+    rightAnswer: "\u0110\xE0 n\u1EB5ng "
+    answerA: "L\xE2m \u0110\u1ED3ng"
+    answerB: "C\u1EA7n Th\u01A1"
+    answerC: "Hu\u1EBF"
+  - question: "B\xED n\xE0o ai c\u0169ng mu\u1ED1n cho ri\xEAng m\xECnh nh\u01B0ng
+      c\u0169ng th\xEDch chia cho ng\u01B0\u1EDDi kh\xE1c ?"
+    rightAnswer: "B\xED quy\u1EBFt"
+    answerA: "B\xED m\u1EADt"
+    answerB: "B\xED \u0111ao"
+    answerC: "B\xED hi\u1EC3m"
+  - question: "H\xE0 Lan \u0111\u01B0\u1EE3c m\u1EC7nh danh l\xE0 s\u1EE9 s\u1EDF
+      c\u1EE7a hoa g\xEC ?"
+    rightAnswer: 'Tulip '
+    answerA: "Hoa hu\u1EC7"
+    answerB: "Hoa anh \u0111\xE0o"
+    answerC: "Hoa h\u1ED3ng"
+  - question: "N\u0103m 2020 qu\u1ED1c gia h\u1EA1nh ph\xFAc nh\u1EA5t th\u1EBF gi\u1EDBi
+      l\xE0 ?"
+    rightAnswer: "Ph\u1EA7n Lan"
+    answerA: "\u0110an M\u1EA1ch"
+    answerB: "Th\u1EE5y S\u0129"
+    answerC: Iceland
+  - question: "\u0110\xE2u l\xE0 t\xEAn c\u1EE7a lo\u1EA1i ng\u0169 c\u1ED1c  ?"
+    rightAnswer: "H\u1EA1t h\u1EA1nh nh\xE2n"
+    answerA: "H\u1EA1t h\u1EA1nh ph\xFAc "
+    answerB: "H\u1EA1t nh\xE3n"
+    answerC: "H\u1EA1t nh\xE2n "
+  - question: "C\xF3 1 tr\xE1i d\u1EEBa v\xE0 1 tr\xE1i d\u01B0a h\u1EA5u h\u1ECFi
+      2 tr\xE1i \u0111\u1EADp v\xF4 \u0111\u1EA7u c\xE1i n\xE0o \u0111au ?"
+    rightAnswer: "C\xE1i \u0111\u1EA7u"
+    answerA: "Tr\xE1i d\u01B0a h\u1EA5u"
+    answerB: "Tr\xE1i d\u1EEBa"
+    answerC: "C\u1EA3 hai tr\xE1i"
+  - question: "Y\xEAu g\xEC \u0111\xE1ng s\u1EE3 nh\u1EA5t?"
+    rightAnswer: "Y\xEAu qu\xE1i"
+    answerA: "Y\xEAu ki\u1EC1u"
+    answerB: "Y\xEAu \u0111\u01B0\u01A1ng"
+    answerC: "Y\xEAu s\xE1ch"
+  - question: "Nam ch\xEDnh trong b\u1ED9 phim Titanic(1997) do di\u1EC5n vi\xEAn
+      n\xE0o th\u1EE7 vai?"
+    rightAnswer: Leonardo Dicaprio
+    answerA: Jame Cameroon
+    answerB: Jason statham
+    answerC: Kate Winslet
+  - question: "C\xE2y xanh quang h\u1EE3p \u0111\u01B0\u1EE3c nh\u1EDD c\xF3 kh\xED?"
+    rightAnswer: Cacbonic
+    answerA: Metan
+    answerB: Nito
+    answerC: Oxi
+  - question: "Trong b\xF3ng \u0111\xE1 c\u1EA7u th\u1EE7 ghi 3 b\xE0n trong 1 tr\u1EADn
+      g\u1ECDi l\xE0 g\xEC  ?"
+    rightAnswer: Hat-Trick
+    answerA: Poker
+    answerB: "C\xFA Tr\xEDp"
+    answerC: Triple Kill
+  - question: "Con nh\xE0 t\xF4ng kh\xF4ng gi\u1ED1ng l\xF4ng c\u0169ng gi\u1ED1ng
+      c\xE1nh. V\u1EADy \u201Ct\xF4ng\u201D \u1EDF \u0111\xE2y l\xE0 g\xEC"
+    rightAnswer: "B\u1ED1 ho\u1EB7c m\u1EB9"
+    answerA: "\xD4ng h\xE0ng x\xF3m v\xEC c\u0169ng c\xF3 v\u1EA7n \u201C\xF4ng\u201D"
+    answerB: "Ch\u1EC9 \u0111\u1ED3 \u0111\u1EC3 \u0111i"
+    answerC: "L\xE0 con th\xEC gi\u1ED1ng b\u1ED1"
+  - question: "B\u1ED9 ph\u1EADn n\xE0o c\u1EE7a \u0111om \u0111\xF3m ph\xE1t ra
+      \xE1nh s\xE1ng ?"
+    rightAnswer: "B\u1EE5ng "
+    answerA: "\u0110\u1EA7u"
+    answerB: "\u0110u\xF4i"
+    answerC: "C\xE1nh"
+  - question: "A t\u1EB7ng B m\u1ED9t m\xF3n qu\xE0 B r\u1EA5t th\xEDch nh\u01B0ng
+      t\u1EA1i sao khi v\u1EC1 nh\xE0 B l\u1EA1i n\xE9m n\xF3 \u0111i  ?"
+    rightAnswer: "V\xEC n\xF3 l\xE0 Boomerang"
+    answerA: "V\xEC B gh\xE9t A"
+    answerB: "V\xCC B kh\xF4ng th\xEDch n\xF3 "
+    answerC: "V\xEC n\xF3 b\u1ECB h\u1ECFng"
+  - question: "C\xF3 c\u1ED5 nh\u01B0ng kh\xF4ng c\xF3 mi\u1EC7ng l\xE0 g\xEC  ?"
+    rightAnswer: "\xC1o"
+    answerA: "Con qu\u1EF7 "
+    answerB: "Kh\xF4ng c\xF3 "
+    answerC: "Qu\u1EA7n"
+  - question: "\"Ch\u01B0a y\xEAu l\u1EA7n n\xE0o, bi\u1EBFt ra l\xE0m sao,bi\u1EBFt
+      trong t\xECnh y\xEAu nh\u01B0 th\u1EBF n\xE0o.\u201D L\xE0 c\xE2u h\xE1t c\u1EE7a
+      b\xE0i h\xE1t n\xE0o?"
+    rightAnswer: "Duy\xEAn ph\u1EADn"
+    answerA: "Anh mu\u1ED1n em s\u1ED1ng sao"
+    answerB: "V\u1EBFt th\u01B0\u01A1ng l\xF2ng"
+    answerC: "B\xF9a y\xEAu"
+  - question: "Con v\u1EADt n\xE0o sau \u0111\xE2y c\xF3 kh\u1EA3 n\u0103ng quay
+      \u0111\u1EA7u ra sau(180\xB0) ?"
+    rightAnswer: "B\u1ECD ng\u1EF1a"
+    answerA: "Chu\u1ED1n chu\u1ED1n"
+    answerB: "D\u1EBF nh\u0169i"
+    answerC: "Ch\xE2u Ch\u1EA5u"
+  - question: "Con s\xF4ng ng\u1EAFn nh\u1EA5t h\u1EBF gi\u1EDBi n\u1EB1ng \u1EDF
+      \u0111\xE2u ?"
+    rightAnswer: "M\u1EF9"
+    answerA: Brazil
+    answerB: "Nh\u1EADt B\u1EA3n"
+    answerC: "Trung Qu\u1ED1c"
+  - question: "Kh\xF4ng ai tr\xEAu m\xE0 kh\xF3c ?"
+    rightAnswer: "M\u01B0a"
+    answerA: "Con n\xEDt"
+    answerB: "Con g\xE1i"
+    answerC: "Di\u1EC5n vi\xEAn"
+  - question: "B\u1EC7nh v\xF4 sinh c\xF3 di truy\u1EC1n kh\xF4ng  ?"
+    rightAnswer: "Kh\xF4ng"
+    answerA: "C\xF3"
+    answerB: "Ch\u1ECBu thua"
+    answerC: "K\xF3 "
+  - question: "N\u01B0\u1EDBc n\xE0o \u1EDF ch\xE2u \xC1 c\xF3 t\xEAn th\u1EE7 \u0111\xF4
+      d\xE0i nh\u1EA5t ?"
+    rightAnswer: "Th\xE1i Lan"
+    answerA: Campuchia
+    answerB: "M\xF4ng C\u1ED5"
+    answerC: "L\xE0o "
+  - question: "\u201CGi\u1EEF g\xECn v\u1EC7 sinh th\u1EADt t\u1ED1t\u201D l\xE0
+      \u0111i\u1EC1u d\u1EA1y th\u1EE9 m\u1EA5y trong 5 \u0111i\u1EC1u b\xE1c h\u1ED3
+      d\u1EA1y ?"
+    rightAnswer: "\u0110i\u1EC1u 4 "
+    answerA: "\u0110i\u1EC1u 3"
+    answerB: "\u0110i\u1EC1u 5"
+    answerC: "\u0110i\u1EC1u 2"
+  - question: "\u0110\u1EA5t n\u01B0\u1EDBc n\u1EB1m \u1EDF ph\xEDa nam vi\u1EC7t
+      nam l\xE0?"
+    rightAnswer: Malaysia
+    answerA: Campuchia
+    answerB: "Th\xE1i lan"
+    answerC: "Trung qu\u1ED1c"
+  - question: "Th\xE1p Ch\xE0m l\xE0 ki\u1EBFn tr\xFAc c\u1EE7a ng\u01B0\u1EDDi d\xE2n
+      t\u1ED9c n\xE0o sau \u0111\xE2y?"
+    rightAnswer: "Ch\u0103m Pa"
+    answerA: "Th\xE1i"
+    answerB: Hoa
+    answerC: Kinh
+  - question: "V\u0129 tuy\u1EBFn 17 \u0111i ngang qua t\u1EC9nh n\xE0o c\u1EE7a
+      n\u01B0\u1EDBc ta ?"
+    rightAnswer: "Qu\u1EA3ng Tr\u1ECB"
+    answerA: "Qu\u1EA3ng Nam"
+    answerB: "Qu\u1EA3ng Ng\xE3i"
+    answerC: "B\xECnh thu\u1EADn"
+  - question: "Trong c\xE2u \u201CTam t\xF2ng \u2013 t\u1EE9 \u0111\u1EE9c\u201D
+      th\xEC t\u1EE9 \u0111\u1EE9c l\xE0 g\xEC ?"
+    rightAnswer: "C\xF4ng dung t\xF4n h\u1EA1nh"
+    answerA: "Hi\u1EC1n t\xE0i nh\xE2n \u0111\u1EE9c"
+    answerB: "C\xF3 t\xE0i, c\xF3 t\u1EADt"
+    answerC: "Ph\u1EA3i th\u1EADt nh\u1EABn t\xE2m"
+  - question: "T\u1ED5ng th\u1ED1ng th\u1EE9 45 c\u1EE7a H\u1EE3p ch\u1EE7ng qu\u1ED1c
+      Hoa k\u1EF3 l\xE0 ?"
+    rightAnswer: Donald Trump
+    answerA: Hilary Clinton
+    answerB: Ivanka Trump
+    answerC: Barack Obama
+  - question: "Lo\xE0i chim n\xE0o \u0111\u01B0\u1EE3c xem l\xE0 bi\u1EC3u t\u01B0\u1EE3ng
+      c\u1EE7a h\xF2a b\xECnh ?"
+    rightAnswer: "Chim b\u1ED3 c\xE2u"
+    answerA: "Chim \u0111\u1EA1i b\xE0ng "
+    answerB: "Chim s\u1EBB"
+    answerC: "Chim uy\xEAn \u01B0\u01A1ng"
+  - question: "Ca kh\xFAc\u201DT\xECnh y\xEAu m\xE0u n\u1EAFng\u201D do ca s\u0129
+      \u0110o\xE0n Th\xFAy Trang th\u1EC3 hi\u1EC7n \u0111\u01B0\u1EE3c th\u1EF1c
+      hi\u1EC7n MV \u1EDF \u0111\xE2u ?"
+    rightAnswer: "M\u1ED9c Ch\xE2u"
+    answerA: Sapa
+    answerB: "Mai Ch\xE2u"
+    answerC: "\u0110\u1ED3ng V\u0103n"
+  - question: "\u0110\u1EA5t n\u01B0\u1EDBc ph\xEDa \u0111\xF4ng Vi\u1EC7t Nam l\xE0
+      ?"
+    rightAnswer: Philippines
+    answerA: "L\xE0o"
+    answerB: "Trung Qu\u1ED1c"
+    answerC: Campuchia
+  - question: "Bi\u1EC3u t\u01B0\u1EE3ng c\u1EE7a Google c\xF3 m\u1EA5y m\xE0u ?"
+    rightAnswer: "4 m\xE0u"
+    answerA: "3 m\xE0u"
+    answerB: "5 m\xE0u"
+    answerC: "6 m\xE0u"
+  - question: "N\u0103m nay Long 18 tu\u1ED5i h\u1ECFi Long c\xF3 bao nhi\xEAu ng\xE0y
+      sinh nh\u1EADt?"
+    rightAnswer: "1 ng\xE0y"
+    answerA: "18 ng\xE0y"
+    answerB: "17 ng\xE0y"
+    answerC: "19 ng\xE0y"
+  - question: "C\u1ED7 tu\u1EA7n l\u1ED9c c\u1EE7a \xF4ng gi\xE0 Noel c\xF3 bao nhi\xEAu
+      con? "
+    rightAnswer: 9 con
+    answerA: 2 con
+    answerB: 4 con
+    answerC: 6 con
+  - question: "\xD0\u1ED3ng EURO \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u1EDF khu
+      v\u1EF1c n\xE0o ?"
+    rightAnswer: "Ch\xE2u \xC2u"
+    answerA: "Ch\xE2u \xC1"
+    answerB: "Ch\xE2u M\u1EF9"
+    answerC: Anh
+  - question: "Tr\xEAn t\u1EDD 50.000 vn\u0111 c\xF3 h\xECnh c\u1EE7a \u0111\u1ECBa
+      danh n\xE0o ?"
+    rightAnswer: "Di t\xEDch Ngh\xEAnh L\u01B0\u01A1ng \u0110\xECnh- Phu V\u0103n
+      L\xE2u"
+    answerA: "V\u0103n Mi\u1EBFu qu\u1ED1c t\u1EED gi\xE1m"
+    answerB: "V\u1ECBnh H\u1EA1 Long"
+    answerC: "L\xE0ng Sen"
+  - question: "K\xE9o co \u0111\u01B0\u1EE3c c\xF4ng nh\u1EADn l\xE0 di s\u1EA3n
+      v\u0103n h\xF3a phi v\u1EADt th\u1EC3 c\u1EE7a nh\xE2n lo\u1EA1i \u0111\xFAng
+      hay sai ?"
+    rightAnswer: "\u0110\xFAng"
+    answerA: Sai
+    answerB: "Chua c\xF3 quy\u1EBFt \u0111\u1ECBnh "
+    answerC: "H\xF4ng bi\u1EBFt"
+  - question: "Con s\xF4ng ch\u1EA3y qua th\xE0nh ph\u1ED1 hu\u1EBF l\xE0 s\xF4ng
+      g\xEC ?"
+    rightAnswer: "S\xF4ng H\u01B0\u01A1ng "
+    answerA: "S\xF4ng \u0110\u1ED3ng Nai "
+    answerB: "S\xF4ng M\xEA K\xF4ng"
+    answerC: "S\xF4ng T\xF4 L\u1ECBch"
+  - question: "\u0110\u01B0\u1EDDng h\u1EA7m d\xE0i nh\u1EA5t Vi\u1EC7t Nam l\xE0
+      \u0111\u01B0\u1EDDng h\u1EA7m n\xE0o ? "
+    rightAnswer: "H\u1EA3i V\xE2n"
+    answerA: "H\u1EA7m \u0111\u01B0\u1EDDng b\u1ED9 C\xF9 M\xF4ng"
+    answerB: "\u0110\xE8o C\u1EA3"
+    answerC: "Th\u1EE7 Thi\xEAm"
+  - question: "Venezuela \u0111\u01B0\u1EE3c m\u1EC7nh danh l\xE0 s\u1EE9 s\u1EDF
+      c\u1EE7a hoa g\xEC ? "
+    rightAnswer: "Hoa h\u1EADu"
+    answerA: "Hoa h\u1ED3ng"
+    answerB: Tulip
+    answerC: "Hoa hu\u1EC7"
+  - question: "\u0110\u1EC9nh n\xFAi cao nh\u1EA5t Vi\u1EC7t Nam thu\u1ED9c t\u1EC9nh
+      n\xE0o ?"
+    rightAnswer: "L\xE0o Cai"
+    answerA: "S\u01A1n La"
+    answerB: "Cao B\u1EB1ng"
+    answerC: "B\u1EAFc K\u1EA1n"
+  - question: "Th\xE0nh ph\u1EA7n n\xE0o c\u1EE7a m\xE1u tham gia v\xE0o qu\xE1 tr\xECnh
+      \u0111\xF4ng m\xE1u \u1EDF v\u1EBFt th\u01B0\u01A1ng?"
+    rightAnswer: "Ti\u1EC3u C\u1EA7u "
+    answerA: "H\u1ED3ng C\u1EA7u"
+    answerB: "B\u1EA1ch c\u1EA7u"
+    answerC: Hemoglobin
+  - question: "L\xE0ng g\u1ED1m s\u1EE9 n\u1ED5i ti\u1EBFng nh\u1EA5t \u1EDF n\u01B0\u1EDBc
+      ta t\xEAn l\xE0 g\xEC ?"
+    rightAnswer: "B\xE1t Tr\xE0ng"
+    answerA: "M\xE3 Ch\xE2u"
+    answerB: "Thanh H\xE0"
+    answerC: "Ph\xF9 L\xE3ng"
+  - question: "\u0110\u1EA5t n\u01B0\u1EDBc n\xE0o l\xE0 qu\xEA h\u01B0\u01A1ng c\u1EE7a
+      \u0111i\u1EC7u nh\u1EA3y tango?"
+    rightAnswer: Argentina
+    answerA: Brazil
+    answerB: "T\xE2y Ban Nha"
+    answerC: Chile
+  - question: "Th\xE0nh ph\u1ED1 H\u1EA1 Long thu\u1ED9c t\u1EC9nh n\xE0o n\u01B0\u1EDBc
+      ta?"
+    rightAnswer: "Qu\u1EA3ng Ninh"
+    answerA: "H\u1EA3i Ph\xF2ng"
+    answerB: "B\u1EAFc Giang "
+    answerC: "H\u1EA3i D\u01B0\u01A1ng"
+  - question: "Tr\xEAn t\u1EDD m\u1EC7nh gi\xE1 200.000VND \u0111\u01B0\u1EE3c in
+      h\xECnh c\u1EE7a \u0111\u1ECBa danh n\xE0o ?"
+    rightAnswer: "V\u1ECBnh H\u1EA1 Long "
+    answerA: "L\xE0ng Sen"
+    answerB: "V\u0103n Mi\u1EBFu-Qu\u1ED1c T\u1EED Gi\xE1m"
+    answerC: "Di t\xEDch Ngh\xEAnh L\u01B0\u01A1ng \u0110\xECnh - Phu V\u0103n L\xE2u"
+  - question: "Tr\xEAn t\u1EDD m\u1EC7nh gi\xE1 500.000VND \u0111\u01B0\u1EE3c in
+      h\xECnh c\u1EE7a \u0111\u1ECBa danh n\xE0o ?"
+    rightAnswer: "L\xE0ng Sen"
+    answerA: "V\u1ECBnh H\u1EA1 Long "
+    answerB: "V\u0103n Mi\u1EBFu-Qu\u1ED1c T\u1EED Gi\xE1m"
+    answerC: "Di t\xEDch Ngh\xEAnh L\u01B0\u01A1ng \u0110\xECnh - Phu V\u0103n L\xE2u"
+--- !u!4 &629251866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629251864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &645369306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645369307}
+  - component: {fileID: 645369309}
+  - component: {fileID: 645369308}
+  m_Layer: 5
+  m_Name: QuestionsText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &645369307
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645369306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774470216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000061035156, y: -0.000061035156}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &645369308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645369306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 75
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 7
+    m_MaxSize: 90
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "C\xE2u s\u1ED1 1"
+--- !u!222 &645369309
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645369306}
+  m_CullTransparentMesh: 0
+--- !u!1 &751384313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751384314}
+  - component: {fileID: 751384316}
+  - component: {fileID: 751384315}
+  m_Layer: 5
+  m_Name: ReturnButtonText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &751384314
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751384313}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 431848951}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &751384315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751384313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Tho\xE1t"
+--- !u!222 &751384316
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751384313}
+  m_CullTransparentMesh: 0
+--- !u!1 &906418037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906418038}
+  - component: {fileID: 906418042}
+  - component: {fileID: 906418041}
+  - component: {fileID: 906418043}
+  - component: {fileID: 906418040}
+  - component: {fileID: 906418039}
+  m_Layer: 5
+  m_Name: AnswerButton03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &906418038
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906418037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1078996444}
+  m_Father: {fileID: 1301435934}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &906418039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906418037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9339623, g: 0.92403597, b: 0.101326115, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &906418040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906418037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 906418041}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &906418041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906418037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &906418042
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906418037}
+  m_CullTransparentMesh: 0
+--- !u!114 &906418043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906418037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82defd7bdd7a5c41b11f65b85c72b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerText: {fileID: 1078996445}
+  button: {fileID: 906418040}
+--- !u!1 &1013068967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1013068968}
+  - component: {fileID: 1013068970}
+  - component: {fileID: 1013068969}
+  m_Layer: 5
+  m_Name: TimeText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1013068968
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013068967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 356513247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.00012207031}
+  m_SizeDelta: {x: 0, y: -0.00022888184}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1013068969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013068967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ee9db0b0975057c428882ece3cb68d75, type: 3}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 00
+--- !u!222 &1013068970
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013068967}
+  m_CullTransparentMesh: 0
+--- !u!1 &1078996443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1078996444}
+  - component: {fileID: 1078996446}
+  - component: {fileID: 1078996445}
+  m_Layer: 5
+  m_Name: Answer03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1078996444
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078996443}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 906418038}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1078996445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078996443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Tr\u1EA3 l\u1EDDi 3"
+--- !u!222 &1078996446
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078996443}
+  m_CullTransparentMesh: 0
+--- !u!1 &1244725603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244725604}
+  - component: {fileID: 1244725606}
+  - component: {fileID: 1244725605}
+  m_Layer: 5
+  m_Name: Answer02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1244725604
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244725603}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 526291838}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1244725605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244725603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b57a2cb168bb94488dd1dffcd7f0ec8, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Tr\u1EA3 l\u1EDDi 2"
+--- !u!222 &1244725606
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244725603}
+  m_CullTransparentMesh: 0
+--- !u!1 &1283754648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283754649}
+  - component: {fileID: 1283754653}
+  - component: {fileID: 1283754652}
+  - component: {fileID: 1283754651}
+  - component: {fileID: 1283754650}
+  m_Layer: 5
+  m_Name: ReplayButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1283754649
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283754648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 310169540}
+  m_Father: {fileID: 1543055833}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 221, y: -234}
+  m_SizeDelta: {x: 300, y: 130}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1283754650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283754648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9607844, g: 0.90196085, b: 0.43137258, a: 0.95686275}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1283754651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283754648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1283754652}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1993515964}
+        m_MethodName: replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1283754652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283754648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.89411765}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1283754653
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283754648}
+  m_CullTransparentMesh: 0
+--- !u!1 &1301435933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301435934}
+  - component: {fileID: 1301435937}
+  - component: {fileID: 1301435936}
+  - component: {fileID: 1301435935}
+  m_Layer: 5
+  m_Name: AnswerPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1301435934
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301435933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1318093005}
+  - {fileID: 526291838}
+  - {fileID: 906418038}
+  - {fileID: 41189229}
+  m_Father: {fileID: 611015502}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -518}
+  m_SizeDelta: {x: -68.60455, y: -1130.5376}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1301435935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301435933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 400, y: 215}
+  m_Spacing: {x: 25, y: 25}
+  m_Constraint: 1
+  m_ConstraintCount: 2
+--- !u!114 &1301435936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301435933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1301435937
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301435933}
+  m_CullTransparentMesh: 0
+--- !u!1 &1318093004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318093005}
+  - component: {fileID: 1318093009}
+  - component: {fileID: 1318093008}
+  - component: {fileID: 1318093010}
+  - component: {fileID: 1318093007}
+  - component: {fileID: 1318093006}
+  m_Layer: 5
+  m_Name: AnswerButton01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1318093005
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318093004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 550257510}
+  m_Father: {fileID: 1301435934}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1318093006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318093004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9339623, g: 0.92403597, b: 0.101326115, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1318093007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318093004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1318093008}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1318093008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318093004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1318093009
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318093004}
+  m_CullTransparentMesh: 0
+--- !u!114 &1318093010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318093004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82defd7bdd7a5c41b11f65b85c72b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerText: {fileID: 550257511}
+  button: {fileID: 1318093007}
+--- !u!1 &1408730505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408730506}
+  - component: {fileID: 1408730508}
+  - component: {fileID: 1408730507}
+  m_Layer: 5
+  m_Name: STTText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1408730506
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408730505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774470216}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -284.6, y: 352.6}
+  m_SizeDelta: {x: 262.25858, y: 113.413574}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1408730507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408730505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 6
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "C\xE2u 1"
+--- !u!222 &1408730508
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408730505}
+  m_CullTransparentMesh: 0
+--- !u!1 &1543055832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543055833}
+  - component: {fileID: 1543055836}
+  - component: {fileID: 1543055835}
+  - component: {fileID: 1543055834}
+  m_Layer: 5
+  m_Name: DialogPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1543055833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543055832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 248497907}
+  - {fileID: 431848951}
+  - {fileID: 1283754649}
+  m_Father: {fileID: 2001353070}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 42}
+  m_SizeDelta: {x: 807.98535, y: 495.81885}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1543055834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543055832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.94190663, b: 0.4481132, a: 1}
+  m_EffectDistance: {x: 20, y: -20}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1543055835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543055832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1543055836
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543055832}
+  m_CullTransparentMesh: 0
+--- !u!1 &1679995936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679995938}
+  - component: {fileID: 1679995937}
+  m_Layer: 0
+  m_Name: UiManeger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1679995937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679995936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35bdfb1e501fe949ba3b48fc3d489da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeText: {fileID: 1013068969}
+  questionsText: {fileID: 645369308}
+  sttText: {fileID: 1408730507}
+  dialog: {fileID: 2001353069}
+  answerButtons:
+  - {fileID: 1318093010}
+  - {fileID: 526291843}
+  - {fileID: 906418043}
+  - {fileID: 41189234}
+--- !u!4 &1679995938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679995936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9024279, y: -0.3381226, z: 260.90512}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1774470215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774470216}
+  - component: {fileID: 1774470219}
+  - component: {fileID: 1774470218}
+  - component: {fileID: 1774470217}
+  m_Layer: 5
+  m_Name: QuestionsPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1774470216
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774470215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 645369307}
+  - {fileID: 356513247}
+  - {fileID: 1408730506}
+  m_Father: {fileID: 611015502}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 46}
+  m_SizeDelta: {x: -68.60443, y: -1035.4623}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1774470217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774470215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1774470218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774470215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1774470219
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774470215}
+  m_CullTransparentMesh: 0
+--- !u!1 &1993515963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993515965}
+  - component: {fileID: 1993515964}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1993515964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993515963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 118e1e14bf4470941ade31054902b22d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeCount: 20
+  curTime: 0
+--- !u!4 &1993515965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993515963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2001353068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2001353070}
+  - component: {fileID: 2001353072}
+  - component: {fileID: 2001353069}
+  - component: {fileID: 2001353071}
+  m_Layer: 5
+  m_Name: EndGamePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2001353069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001353068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132359365269bf5409af9c9f5640afb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogContentText: {fileID: 248497905}
+--- !u!224 &2001353070
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001353068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1543055833}
+  m_Father: {fileID: 611015502}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2001353071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001353068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7254902}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2001353072
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001353068}
+  m_CullTransparentMesh: 0
+--- !u!1 &2059755061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2059755063}
+  - component: {fileID: 2059755062}
+  m_Layer: 0
+  m_Name: BackGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2059755062
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059755061}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -2
+  m_Sprite: {fileID: 21300000, guid: 864c7ad4152d9674fadf451219916b91, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 6.82}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2059755063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059755061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.024, y: 0.014, z: 0}
+  m_LocalScale: {x: 0.5800403, y: 1.5150677, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
