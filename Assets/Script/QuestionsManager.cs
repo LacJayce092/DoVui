@@ -64,5 +64,5 @@ public class QuestionsManager : MonoBehaviour
         else
             Destroy(gameObject);
     }
-
+    
 }

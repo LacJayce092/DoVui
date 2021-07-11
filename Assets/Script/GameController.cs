@@ -9,7 +9,9 @@ public class GameController : MonoBehaviour
     public float timeCount;
     public float curTime;
     public static int stt = 1;
-
+    public static bool gameIsPause = false;
+    public GameObject pauseMenuUI;
+    public int score = 0;
   
 
     private void Awake()
@@ -21,14 +23,13 @@ public class GameController : MonoBehaviour
         UIManager.ins.setTimeText("" + timeCount);
         createQuestions();
         StartCoroutine(timeCountingDown());
-      
+       
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
     public void createQuestions()
     {      
@@ -68,6 +69,7 @@ public class GameController : MonoBehaviour
     {
         if (answerButton.CompareTag("RightAnswer"))
         {
+            score = score + (stt * 100 * (int)curTime);
             curTime = timeCount;
             UIManager.ins.setTimeText("" + curTime);
             rightAnswerNumber++;
@@ -91,6 +93,7 @@ public class GameController : MonoBehaviour
             stt = 1;
             StopAllCoroutines();
         }
+        
     }
 
     IEnumerator timeCountingDown()
@@ -112,14 +115,45 @@ public class GameController : MonoBehaviour
            
        
     }
+    
     public void replay()
     {
         SceneManager.LoadScene("SampleScene");
+        stt = 1;
     }
     public void exitToMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+        UIManager.ins.setScoreText("Điểm cao nhất: " + HighestScore());
+        
+
+    }
+    public void Quit()
     {
         Application.Quit();
 
     }
-   
+    public void pause()
+    {
+        UIManager.ins.pauseMenuUI.showPauseMenu(true);
+        Time.timeScale = 0f;
+    }
+    public void resume()
+    {
+        UIManager.ins.pauseMenuUI.showPauseMenu(false);
+        Time.timeScale = 1f;
+    }
+    
+    public  int HighestScore()
+    {
+        int highScore = 0;
+        if(highScore <= score)
+        {
+            highScore = score;
+        }
+        return highScore;
+    }
+
+
+
 }

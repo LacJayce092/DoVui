@@ -12,12 +12,21 @@ public class UIManager : MonoBehaviour
     public Text sttText;
     public Dialog dialog;
     public AnswerButton[] answerButtons;
+    public Button pausebutt;
+    public PauseMenu pauseMenuUI;
+    public Text scoreText;
 
     public void Awake()
     {
         makeSingleton();
     }
-
+    public void setScoreText(string contents)
+    {
+        if (scoreText)
+        {
+            scoreText.text = contents;
+        }
+    }
     public void setTimeText(string contents)
     {
         if (timeText)
@@ -60,7 +69,7 @@ public class UIManager : MonoBehaviour
                     answerButtons[i].tag = "Untagged";
                 }
             }
-            int rand = Random.RandomRange(0, answerButtons.Length);
+            int rand = Random.Range(0, answerButtons.Length);
             if(answerButtons[rand] != null)
             {
                 answerButtons[rand].tag = "RightAnswer";
