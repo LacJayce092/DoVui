@@ -15,17 +15,18 @@ public class UIManager : MonoBehaviour
     public Button pausebutt;
     public PauseMenu pauseMenuUI;
     public Text scoreText;
+    
+
 
     public void Awake()
     {
         makeSingleton();
     }
-    public void setScoreText(string contents)
+
+    public void setScoreText(string content)
     {
         if (scoreText)
-        {
-            scoreText.text = contents;
-        }
+            scoreText.text = content;
     }
     public void setTimeText(string contents)
     {

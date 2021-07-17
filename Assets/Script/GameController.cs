@@ -9,9 +9,13 @@ public class GameController : MonoBehaviour
     public float timeCount;
     public float curTime;
     public static int stt = 1;
-    public static bool gameIsPause = false;
-    public GameObject pauseMenuUI;
     public int score = 0;
+    public int cur_Score;
+  
+ 
+   
+   
+     
   
 
     private void Awake()
@@ -20,6 +24,7 @@ public class GameController : MonoBehaviour
     }
     void Start()
     {
+        stt = 1;
         UIManager.ins.setTimeText("" + timeCount);
         createQuestions();
         StartCoroutine(timeCountingDown());
@@ -34,6 +39,7 @@ public class GameController : MonoBehaviour
     public void createQuestions()
     {      
         QuestionsData q = QuestionsManager.ins.getRandomQuestion();
+        UIManager.ins.setScoreText("" + score);
         
         if(q != null)
         {
@@ -68,14 +74,18 @@ public class GameController : MonoBehaviour
     public void checkRightAnswerEvent(AnswerButton answerButton)
     {
         if (answerButton.CompareTag("RightAnswer"))
+            
         {
-            score = score + (stt * 100 * (int)curTime);
+            score += stt * 10 * (int)curTime;
+            cur_Score = score;
+            AudioController.aud.PlayCorrectSound();
             curTime = timeCount;
             UIManager.ins.setTimeText("" + curTime);
             rightAnswerNumber++;
             if (rightAnswerNumber == 15)
             {
-                UIManager.ins.dialog.setDialogcontent("Bạn đã chiến thắng !!");
+                AudioController.aud.PlayWinSound();
+                UIManager.ins.dialog.setDialogcontent("Bạn đã chiến thắng. Điểm số: " + cur_Score);
                 UIManager.ins.dialog.showDialog(true);
                 stt = 1;
                 StopAllCoroutines();
@@ -87,7 +97,8 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            UIManager.ins.dialog.setDialogcontent("Bạn đã chọn sai !!");
+            AudioController.aud.PlayLoseSound();
+            UIManager.ins.dialog.setDialogcontent("Bạn đã chọn sai. Điểm số: " + cur_Score);
             UIManager.ins.dialog.showDialog(true);
             rightAnswerNumber = 0;
             stt = 1;
@@ -106,7 +117,8 @@ public class GameController : MonoBehaviour
             curTime--;
         }else
         {
-            UIManager.ins.dialog.setDialogcontent("Hết giờ !!");
+            AudioController.aud.PlayLoseSound();
+            UIManager.ins.dialog.setDialogcontent("Hết giờ. Điểm số: " + cur_Score);
             UIManager.ins.dialog.showDialog(true);
             rightAnswerNumber = 0;
             stt = 1;
@@ -121,18 +133,8 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
         stt = 1;
     }
-    public void exitToMenu()
-    {
-        SceneManager.LoadScene("StartMenu");
-        UIManager.ins.setScoreText("Điểm cao nhất: " + HighestScore());
-        
-
-    }
-    public void Quit()
-    {
-        Application.Quit();
-
-    }
+   
+  
     public void pause()
     {
         UIManager.ins.pauseMenuUI.showPauseMenu(true);
@@ -143,17 +145,13 @@ public class GameController : MonoBehaviour
         UIManager.ins.pauseMenuUI.showPauseMenu(false);
         Time.timeScale = 1f;
     }
-    
-    public  int HighestScore()
+    public void exitToMenu()
     {
-        int highScore = 0;
-        if(highScore <= score)
-        {
-            highScore = score;
-        }
-        return highScore;
+
+        SceneManager.LoadScene("StartMenu");
+        UIManager.ins.pauseMenuUI.showPauseMenu(false);
+        Time.timeScale = 1f;
     }
-
-
+ 
 
 }
